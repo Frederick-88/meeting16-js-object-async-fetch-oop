@@ -47,8 +47,13 @@ console.log(tanggal);
 const {name, lastName} = manusia;
 console.log(`${name} ${lastName}`);
 
-    // LEARN DOM EVENT LISTENERS
+    // LEARN DOM EVENT LISTENERS - BKIN FUNCTION UNTUK FITUR HTML DAN TAMPILIN KE HTML
     document.querySelector('#clickMe').addEventListener('click',()=>{
-        document.create
+        const contentHTML = '<button class="btn btn-danger">Awas</button>';
+        document.getElementById('content').innerHTML = contentHTML
+
+        // UNLIMITED ADDITION
+        // document.getElementById('content').innerHTML += contentHTML
+
         // window.alert('HAI!!')
     })
